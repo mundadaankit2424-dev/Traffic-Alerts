@@ -1,0 +1,1 @@
+{"name":"pune-commute-push-worker","private":true,"scripts":{"dev":"wrangler dev","deploy":"wrangler deploy","db:create":"wrangler d1 create pune-commute","db:init":"wrangler d1 execute pune-commute --remote --file=./schema.sql","vapid":"node ./generate-vapid.mjs","token":"node ./generate-token.mjs"},"devDependencies":{"wrangler":"^4.0.0"},"engines":{"node":">=20"}}

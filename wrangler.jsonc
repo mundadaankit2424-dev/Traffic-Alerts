@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "pune-commute-push",
+  "main": "src/index.js",
+  "compatibility_date": "2026-10-07",
+  "vars": {
+    "APP_ORIGIN": "https://mundadaankit2424-dev.github.io",
+    "APP_URL": "https://mundadaankit2424-dev.github.io/Pune-commute/",
+    "GOOGLE_MONTHLY_REQUEST_CAP": "4000"
+  },
+  "triggers": { "crons": ["* * * * *"] },
+  "d1_databases": [{"binding":"DB","database_name":"pune-commute","database_id":"REPLACE_WITH_D1_DATABASE_ID"}]
+}
